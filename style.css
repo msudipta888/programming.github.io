@@ -1,0 +1,127 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.main{
+    background-color: aqua;
+   min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    height: 10vh;
+    width: 100vw;
+    background-color:white;
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+    position: fixed;
+   
+}
+.nav ul{
+    display: flex;
+    align-items:center ;
+}
+.nav ul li{
+    list-style-type: none;
+    gap: 15px;
+    padding-right: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.nav ul li:hover{
+    color: blue;
+}
+.footer{
+    height: 10vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+.content{
+    display: flex;
+    background-color: darkmagenta;
+    height: 80vh;
+    width: 100vw;
+}
+.left{
+    height: 80vh;
+    width: 40vw;
+    background-color: white;
+    background-image: url(./aaaaaa.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+}
+.right{
+    height: 80vh;
+    width: 60vw;
+    background-color:white;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+h1{
+    color: blue;
+    text-align: center;
+}
+.pa{
+    color: rgb(231, 10, 187);
+    font-size: 20px;
+    padding-left: 2opx;
+}
+.con{
+    height: 80vh;
+    width: 100vw;
+    background-color: darkgreen;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+.con_right{
+    height: 80vh;
+    width: 40vw;
+    background-color: aliceblue;
+    box-sizing: border-box;
+    background-image: url(./c++.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.con_left{
+    height: 80vh;
+    width: 60vw;
+    background-color: white;
+    padding-top: 30px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    text-align: center;
+    font-size: 25px;
+}
+ .c{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 30px;
+    
+ }   
+ .btn{
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    background-color:lime;
+    margin-top: 60px;
+    margin-left: 70px;
+    /* box-sizing: border-box; */
+}
+.btn:hover{
+    ba3ckground-color: blue;
+
+} 
